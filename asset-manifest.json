@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.766a32d5.js",
-    "static/js/787.1e3e64ed.chunk.js": "/static/js/787.1e3e64ed.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.766a32d5.js.map": "/static/js/main.766a32d5.js.map",
-    "787.1e3e64ed.chunk.js.map": "/static/js/787.1e3e64ed.chunk.js.map"
+    "main.css": "/meetyounes/static/css/main.073c9b0a.css",
+    "main.js": "/meetyounes/static/js/main.97ad796f.js",
+    "static/js/787.1e3e64ed.chunk.js": "/meetyounes/static/js/787.1e3e64ed.chunk.js",
+    "static/media/logo.svg": "/meetyounes/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/meetyounes/index.html",
+    "main.073c9b0a.css.map": "/meetyounes/static/css/main.073c9b0a.css.map",
+    "main.97ad796f.js.map": "/meetyounes/static/js/main.97ad796f.js.map",
+    "787.1e3e64ed.chunk.js.map": "/meetyounes/static/js/787.1e3e64ed.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.766a32d5.js"
+    "static/js/main.97ad796f.js"
   ]
 }
