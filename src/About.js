@@ -5,7 +5,7 @@ function About() {
   const containerClass = "about-container";
   return (
     <div className={containerClass}>
-      <h1>Welcome to the About Page</h1>
+      <h1>À propos</h1>
       {/* Add content specific to the Home page */}
     </div>
   );

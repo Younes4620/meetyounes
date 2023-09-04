@@ -5,7 +5,7 @@ function NotFound() {
   const containerClass = "notfound-container";
   return (
     <div className={containerClass}>
-      <h1>THERE IS NOTHING HERE GO AWAY</h1>
+      <h1>Y'a rien</h1>
       {/* Add content specific to the Home page */}
     </div>
   );

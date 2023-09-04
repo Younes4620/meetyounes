@@ -3,8 +3,8 @@ import React from 'react';
 
 function Footer() {
   return (
-    <div>
-      <p>My balls itch</p>
+    <div className="footer">
+      <p>Bonne journée</p>
     </div>
   );
 }

@@ -1,0 +1,76 @@
+.App {
+    background-color: darkblue;
+    height: 100vh;
+
+    p {
+        margin: 0;
+    }
+
+    .header {
+        display: flex;
+        justify-content: center;
+        height: 10vh;
+
+        h1 {
+            color: white;
+        }
+    }
+
+    nav {
+        ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            width: 100vw;
+            flex-direction: row;
+            justify-content: center;
+            align-content: center;
+            text-align: center;
+            align-items: center;
+            background-color: red;
+            height: 10vh;
+            margin: 0;
+
+            li {
+                width: 33vw;
+                font-size: 3em;
+
+                a {
+                    text-decoration: none;
+                    color: darkblue;
+                    transition: color 0.3s ease;
+
+                    &:hover {
+                        color: yellow;
+                    }
+                }
+            }
+        }
+    }
+
+    .home-container,
+    .about-container,
+    .contact-container,
+    .work-container {
+        background-color: yellow;
+        height: 60vh;
+
+        h1 {
+            margin: 0;
+            text-align: center;
+        }
+
+        .home-container {
+            div {
+                img {
+                    border: solid black 10px;
+                }
+            }
+        }
+    }
+
+    .footer {
+        background-color: green;
+        height: 20vh;
+    }
+}
