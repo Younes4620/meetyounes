@@ -5,25 +5,25 @@ import About from './About';
 import Work from './Work';
 import Contact from './Contact';
 import NotFound from './NotFound';
-import Navigation from './Navigation';
 import Footer from './Footer';
 import Header from './Header';
+import MobileMenu from './MobileMenu';
 import './styles.scss';
 
 function App() {
   return (
     <Router>
       <div className="App">
-      <Header></Header>
-      <Navigation></Navigation>
+      <Header/>
+      <MobileMenu />
          <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/meetyounes" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/work" element={<Work />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="*" element={<NotFound />} /> {/* Fallback for unmatched routes */}
-        </Routes>
-        <Footer></Footer>
+          <Route path="*" element={<NotFound />} /> 
+         </Routes>
+        <Footer/>
       </div>
     </Router>
   );
